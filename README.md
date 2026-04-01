@@ -1,8 +1,14 @@
 # Ecommerce-popularity-
 Este notebook presenta un análisis de un dataset de E-commerce con el objetivo de comprender y predecir el 'Popularity Index' de diversos productos. El proyecto sigue un flujo de trabajo estructurado que incluye: 
-1.Análisis Exploratorio de Datos (EDA): Exploración de la distribución de las variables, identificación de valores atípicos y faltantes, y análisis de la relación bivariada entre las características y el 'Popularity Index'.
+
+1. Análisis Exploratorio de Datos (EDA): Exploración de la distribución de las variables, identificación de valores atípicos y faltantes, y análisis de la relación bivariada entre las características y el 'Popularity Index'.
+
 2. Preprocesamiento y Transformación de Datos: Manejo de valores faltantes y aplicación de One-Hot Encoding para convertir variables categóricas a formatos numéricos.
+
 3. Selección de Características: Utilización de Lasso Regression y un proceso de Backward Selection basado en p-valores (usando modelos OLS) para identificar las variables más significativas que influyen en el 'Popularity Index'. Se realizó un análisis de multicolinealidad (VIF) para asegurar la independencia de las características seleccionadas.
+
 4. Desarrollo y Evaluación del Modelo de Regresión Lineal: Construcción de un modelo de regresión lineal múltiple con las características seleccionadas. El modelo fue evaluado utilizando métricas como R², R² ajustado, MSE, RMSE y MAE.
+   
 5. Validación de Supuestos del Modelo: Verificación de los supuestos de linealidad, independencia de errores, homocedasticidad (mediante gráficos de residuos y el test de Breusch-Pagan) y normalidad de los residuos (histograma y Q-Q plot).
-6.  Interpretación y Conclusiones: Análisis de los coeficientes del modelo para entender el impacto de las características seleccionadas. Se discuten las limitaciones del modelo, en particular su bajo poder predictivo, y se proponen futuras mejoras, como la exploración de modelos no lineales y técnicas avanzadas de ingeniería de características.
+   
+6. Interpretación y Conclusiones: Análisis de los coeficientes del modelo para entender el impacto de las características seleccionadas. Se discuten las limitaciones del modelo, en particular su bajo poder predictivo, y se proponen futuras mejoras, como la exploración de modelos no lineales y técnicas avanzadas de ingeniería de características.
